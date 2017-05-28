@@ -1,0 +1,87 @@
+@font-face {
+    font-family: LLBrown-Bold;
+    src: url('LLBrown-Bold.otf');
+}
+@font-face{
+    font-family: LLBrown-Regular;
+    src: url('LLBrown-Regular.otf');
+}
+@font-face {
+    font-family: Neue;
+    src: url('Neue.otf');
+}
+@font-face {
+    font-family: HNM;
+    src: url('HNM.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+ }
+
+.top {
+    margin: 0;
+    background: #0066ff;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Open Sans;
+    font-size: 12.8px;
+}
+
+.bold {
+    font-family: LLBrown-Bold;
+}
+
+.Title {
+    font-family: LLBrown-Bold;
+    font-size: 29.12px;
+    margin-top: 20px;
+}
+.home {
+	margin-top: 20px;
+	font-size: 18px;
+}
+.qna {
+	text-align: center;
+	font-family: LLBrown-Regular;
+	font-size: 31.32px;
+}
+
+.QNA {
+  position: absolute;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.QNAD {
+	margin-top: 20px;
+}
+
+.Q {
+	text-align: left;
+	font-family: LLBrown-Bold;
+	font-size: 19px;
+}
+
+.A {
+	text-align: justify;
+	font-family: LLBrown-Regular;
+	font-size: 17px;
+	color: #c2c6c4;
+}
+
+.two {
+	margin-top: 30px;
+}
+
+.space {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
