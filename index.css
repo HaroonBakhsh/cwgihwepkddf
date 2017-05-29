@@ -476,6 +476,11 @@ a {
   }
   .exclusive .pricing-wrapper > li {
     box-shadow: inset 0 0 0 3px #2d3e50;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    border-color: black;
   }
   .has-margins .pricing-wrapper > li,
   .has-margins .exclusive .pricing-wrapper > li {
@@ -947,10 +952,12 @@ input:-webkit-autofill:active {
     border-radius: 5px;
     height: 60px;
 }
+
 .signup input{
     border: none;
     outline: none;
 }
+
 .signup input[name=email]{
     font-family: LLBrown-Regular;
     text-transform: uppercase;
@@ -1038,11 +1045,12 @@ input:-webkit-autofill:active {
 }
 .FWrap {
     border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    border-color: black;
     background: white;
     padding: 10px 15px;
-    -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.15);
     height: 300px;
     width: 80%;
     margin: auto;
@@ -1059,6 +1067,7 @@ input:-webkit-autofill:active {
     font-size: 17px;
     line-height: 30px;
     width: 80%;
+    color: #acafae;
 }
 
 .FBtn {
