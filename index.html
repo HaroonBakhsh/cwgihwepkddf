@@ -9,8 +9,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="pace/pace.js"></script>
-    <link href="/pace/pacetheme.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Start of Async Drift Code -->
 <script>
 !function() {
@@ -36,11 +35,14 @@ drift.load('r4drgnmz4ifn');
 </script>
 <!-- End of Async Drift Code -->
 
-<script type="text/javascript">
-
-</script>
+<!-- 	<script> 
+	window.setTimeout(function(){
+		$('.wrapper').addClass('loaded');
+	}, 100);
+	</script> -->
 
 </head>
+
 <body>
 
 <script type="text/javascript">
@@ -51,7 +53,7 @@ drift.load('r4drgnmz4ifn');
 
 	<div class="row">
 		<div class="col-sm-12">
-			<h4 class="top">INTRODUCING <b class="bold">TYDE 1.0</b>: THE BEST WAY TO COMMUNICATE &#x1f680;</h4>
+			<h4 class="top">INTRODUCING <b style="font-family: HNM">TYDE 1.0</b>: THE BEST WAY TO COMMUNICATE <img src="rocket.png" width="15px"></h4>
 		</div>
 	</div>
  <script type="text/javascript" src="main.js"></script>
@@ -59,16 +61,16 @@ drift.load('r4drgnmz4ifn');
  <div class="container">
  	<div class="wrapper">
  		<div class="row Head">
- 			<div class="col-sm-7">
+ 			<div class="col-sm-5">
 				<h1 class="Title">Tyde</h1>
 			</div>
-				<div class="col-sm-5">
+				<div class="col-sm-7">
 						<ul class="topnav" id="myTopnav" >
-								<li><a href="features.html"> Features </a></li>
+								<li><a href="#ft"> Features </a></li>
 								<li><a href="#pricing"> Pricing </a></li>
 								<li><a href="faq.html"> FAQ </a></li>
-								<li><a href="mailto:info@tyde.pro"> Contact </a></li>
-								<li><a href="donate.html">Sign in</a></li>
+								<li><a href="donate.html" id="SI" class="nl">Sign in</a></li>
+								<li><a href="donate.html" id="FT" class="nl">Free Trial</a></li>
 								<li class="icon">
 									<a href="javascript:void(0)" onclick="myFunction()">&#9776;</a>
 								</li>
@@ -80,7 +82,7 @@ drift.load('r4drgnmz4ifn');
 
  			<div class="row">
  				<div class="col-sm-12">
-					<h2 class="SubHead"><span class="subf">A platform delivering the best business-consumer</span> <br> <span class="subcent"><span class="bold">communication</span> and <span class="bold">prototyping.</span></span></h2> <br>
+					<h2 class="SubHead"><span class="subf">A platform delivering the best business-consumer</span> <br> <span class="subcent"><span style="font-family: HNM"">communication</span> and <span style="font-family: HNM">prototyping.</span></span></h2> <br>
 				</div>
  			</div>
 
@@ -89,9 +91,15 @@ drift.load('r4drgnmz4ifn');
 	 				<!-- EDIT THE ACTION LATER -->
 					<form action="" class="signup">
 						<input type="text" name="email" placeholder="Enter your email address">
-						<input class="bold" type="submit" name="sub" value="JOIN TYDE &#x1f510;">
+						<input style="font-family: HNM" type="submit" name="sub" value="JOIN TYDE">
 					</form>
 						<!-- <center><img src="Browser.png" height="602.4" width="888" class="panel"></center> -->
+ 				</div>
+ 			</div>
+
+ 			<div class="row">
+ 				<div class="col-sm-12">
+ 					<center><img src="Laptop.png" width="715" class="laptop"></center>
  				</div>
  			</div>
 
@@ -103,50 +111,59 @@ drift.load('r4drgnmz4ifn');
  				</div>
  			</div> -->
 
+ <div class="row">
+	<div class="col-sm-12">
+		<h1 class="Power">Great Teams powered by Tyde 🌎</h1>
+	</div>
+ 	<div class="col-sm-12">
+ 		<img src="Google.png" alt="Company 1" width="150px" class="company goog">
+ 		<img src="dropbox.jpg" alt="Company 2" width="220px" class="company">
+ 		<img src="box.png" alt="Company 3" width="90px" class="company">
+ 		<img src="fb2.png" alt="Company 4" width="180px" class="company">
+ 		<img src="nl.png" alt="Company 4" width="200px" class="company">
+ 	</div>
+ </div>
+
+ 	<div class="row p1">
+ 	 <div id="slideshow" class="prototype">
+ 		<div class="col-sm-6">
+ 			<br>
+ 		<div class="Com">
+	 		<h1 class="hd">Prototyping 🔬</h1> <br>
+	 		<center><p class="subft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p><br></center>
+	 		<a class="btn btn-default home" href="product.html" role="button">Learn More <img src="img/handup.png" width="15px"></a>
+		</div>
+		</div>
+ 		</div>
+
+ 		<div class="col-sm-6">
+ 			<div class="picture">
+ 				<center><img src="Browser4.png" width="444" class="panel"></center>
+ 			</div>
+ 		</div>
+     </div>
+
  	<div class="row">
  	 <div id="slideshow">
- 		<div class="col-sm-7">
- 			<div class="picture">
- 				<center><img src="Browser4.png" height="451.8" width="666" class="panel"></center>
+ 		<div class="col-sm-6">
+ 			<div class="picture" id="ft">
+ 				<center><img src="Browser4.png" width="444" class="panel"></center>
  			</div>
  		</div>
- 		<div class="col-sm-4">
+ 		<div class="col-sm-5">
  			<br>
  		<div class="Com">
-	 		<center><h1 class="hd">Communication</h1> <br>
-	 		<p class="dshc">&mdash;&mdash;</p> <br>
-	 		<p class="subft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p><br>
+	 		<h1 class="hd">Communication 💬</h1><br>
+	 		<center><p class="subft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p><br></center>
 	 		
-	 		<a class="btn btn-default home" href="index.html" role="button">Learn More &#x1f64b;</a></center>
+	 		<a class="btn btn-default home" href="product.html" role="button">Learn More <img src="img/handup.png" width="15px"></a>
  		</div>
- 		<div class="col-sm-1">
-		</div>
-     </div>
-   </div>
-</div>
-
- 	<div class="row">
- 	 <div id="slideshow" class="prototype">
- 		<div class="col-sm-4">
- 			<br>
- 		<div class="Com">
-	 		<center><h1 class="hd">Prototyping</h1> <br>
-	 		<p class="dshc">&mdash;&mdash;</p> <br>
-	 		<p class="subft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p><br>
-	 		<a class="btn btn-default home" href="index.html" role="button">Learn More &#x1f64b;</a></center>
-		</div>
-		</div>
- 		</div>
- 		<div class="col-sm-7">
- 			<div class="picture">
- 				<center><img src="Browser4.png" height="451.8" width="666" class="panel"></center>
- 			</div>
  		</div>
      </div>
    </div>
 
 
-<div class="row">
+<div class="row" id="rp">
  <div class="col-sm-12">
   	<div class="pricing-container">
   	<h1 class="pricing-head" id="pricing"><b>Pricing</b></h1> <br> <p class="dsh">&mdash;&mdash;&mdash;</p> <br><br>
@@ -164,7 +181,7 @@ drift.load('r4drgnmz4ifn');
 				<ul class="pricing-wrapper">
 					<li data-type="monthly" class="is-visible">
 						<header class="pricing-header">
-							<h2>Basic</h2>
+							<h2>Startup 🚗</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">30</span>
@@ -173,11 +190,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>1-5</em> Platform Users</li>
-								<li><em>1</em> Template Style</li>
-								<li><em>25</em> Products Loaded</li>
-								<li><em>1</em> Image per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>–</em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -187,7 +204,7 @@ drift.load('r4drgnmz4ifn');
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
-							<h2>Basic</h2>
+							<h2>Startup 🚗</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">320</span>
@@ -196,11 +213,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>1-5</em> Platform Users</li>
-								<li><em>1</em> Template Style</li>
-								<li><em>25</em> Products Loaded</li>
-								<li><em>1</em> Image per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>–</em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -214,7 +231,7 @@ drift.load('r4drgnmz4ifn');
 				<ul class="pricing-wrapper">
 					<li data-type="monthly" class="is-visible">
 						<header class="pricing-header">
-							<h2>Exclusive</h2>
+							<h2>Business 🛳</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">60</span>
@@ -223,11 +240,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>15</em> Email Accounts</li>
-								<li><em>3</em> Template Styles</li>
-								<li><em>40</em> Products Loaded</li>
-								<li><em>7</em> Images per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>Everything from Startup 🚗</em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -237,7 +254,7 @@ drift.load('r4drgnmz4ifn');
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
-							<h2>Exclusive</h2>
+							<h2>Business 🛳</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">630</span>
@@ -246,11 +263,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>15</em> Email Accounts</li>
-								<li><em>3</em> Template Styles</li>
-								<li><em>40</em> Products Loaded</li>
-								<li><em>7</em> Images per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>Everything from Startup 🚗</em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -264,7 +281,7 @@ drift.load('r4drgnmz4ifn');
 				<ul class="pricing-wrapper">
 					<li data-type="monthly" class="is-visible">
 						<header class="pricing-header">
-							<h2>Pro</h2>
+							<h2>Enterprise 🚀</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">90</span>
@@ -273,11 +290,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>20</em> Email Accounts</li>
-								<li><em>5</em> Template Styles</li>
-								<li><em>50</em> Products Loaded</li>
-								<li><em>10</em> Images per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>Everything from Business 🛳 </em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -287,7 +304,7 @@ drift.load('r4drgnmz4ifn');
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
-							<h2>Pro</h2>
+							<h2>Enterprise 🚀</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">950</span>
@@ -296,11 +313,11 @@ drift.load('r4drgnmz4ifn');
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<li><em>20</em> Email Accounts</li>
-								<li><em>5</em> Template Styles</li>
-								<li><em>50</em> Products Loaded</li>
-								<li><em>10</em> Images per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>Everything from Business 🛳</em></li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
+								<li><em>xx</em> xxxxx xxxx</li>
 								<li><em>24/7</em> Support</li>
 							</ul>
 						</div>
@@ -315,6 +332,46 @@ drift.load('r4drgnmz4ifn');
 </div>
 </div>
 
+<!-- 	<div class="row">
+		<div class="col-sm-4">
+			<img src="PP.png" class="inpp" width="100px" style="display: inline-block;">
+			<p class="inpp" style="display: inline-block;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ante ac tellus malesuada finibus. Fusce viverra nunc sed libero."</p>
+			<h2 class="subname tname">Jon Doe</h2>
+			<h2 class="comname tname">Sr. Marketing Manager</h2>
+		</div>
+	</div> -->
+	<div class="wrap">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="qna">Frequently Asked Questions, Answered. 🤓</h1>
+			</div>
+		</div>
+
+		<div class="row QNA">
+			<div class="col-sm-5">
+				<h3 class="Q">How does the platform operate?</h3>
+				<p class="A">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5">
+				<h3 class="Q">How does the platform operate?</h3>
+				<p class="A">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p>
+			</div>
+	<div class="row">
+	 <div class="col-sm-12">
+		<div class="Row2"></div>
+	 </div>
+	</div>
+			<div class="col-sm-5">
+				<h3 class="Q">How does the platform operate?</h3>
+				<p class="A">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5">
+				<h3 class="Q">How does the platform operate?</h3>
+				<p class="A">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mollis dui, vel dapibus leo. Donec eu malesuada est. Phasellus laoreet suscipit lorem, eu vulputate nibh molestie a. Quisque tempor diam vitae lectus varius, sit amet auctor risus sollicitudin.</p>
+			</div>
+		</div>
 
   </div>
 </div>
@@ -322,7 +379,7 @@ drift.load('r4drgnmz4ifn');
 <div class="FWrap">
 	<div class="row">
 		<div class="col-sm-12">
-			<br><center><h1 class="FHead">Begin your journey today with Tyde &#x1f3c3;</h1></center> <br><br>
+			<br><br><center><h1 class="FHead">Begin your journey today with Tyde 🤖</h1></center> <br><br>
 		</div>
 	</div>
 	<div class="row">
@@ -332,17 +389,15 @@ drift.load('r4drgnmz4ifn');
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<center><a href="signup.html" class="FBtn">EXPLORE OUR PLATFORM</a></center>
+			<center><a href="signup.html" class="FBtn">PLATFORM COMING SOON </a></center>
 		</div>
 	</div>
 </div>
 
-	
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
-
 <script src="js/index.js"></script>
+
  		</div>
  	</div>
  </div>
@@ -351,6 +406,22 @@ drift.load('r4drgnmz4ifn');
 		<div class="footer">
 			<center><h1 class="FName">&copy; Tyde Inc, 2017. All rights reserved.</h1></center>
 		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-12">
+		<ul class="topnav2" id="myTopnav2">
+			<center><li><a href="mailto:info@tyde.pro"> Contact </a></li>
+			<li><a href="team.html"> Our Team </a></li>
+			<li><a href="http://blog.tyde.pro"> Blog </a></li>
+			<li><a href="http://tyde.pro/Press"> Press </a></li>
+			<li><a href="http://tyde.pro/ToS"> Terms </a></li>
+			<li><a href="http://twitter.com/TydeInc"> Twitter </a></li>
+			<li class="icon">
+			<a href="javascript:void(0)" onclick="myFunction()">&#9776;</a>
+			</li></center>
+		</ul>
 	</div>
 </div>
 </body>

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: LLBrown-Bold;
+    src: url('LLBrown-Bold.otf');
+}
+@font-face{
+    font-family: LLBrown-Regular;
+    src: url('LLBrown-Regular.otf');
+}
+@font-face {
+    font-family: Neue;
+    src: url('Neue.otf');
+}
+@font-face {
+    font-family: HNM;
+    src: url('HNM.ttf');
+}
+
+.Title {
+	font-family: HNM;
+	font-size: 40px;
+}

@@ -1,3 +1,17 @@
+/*.wrapper {
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+}
+
+.loaded {
+  opacity: 1;
+}*/
+@font-face {
+    font-family: HNT;
+    src: url('css2/HNT.ttf');
+}
+
 @font-face {
     font-family: LLBrown-Bold;
     src: url('LLBrown-Bold.otf');
@@ -49,6 +63,7 @@
     font-family: LLBrown-Bold;
     font-size: 35px;
     margin-top: 20px;
+    overflow: none;
 }
 
 .Nav {
@@ -65,6 +80,11 @@
 	color: #373737;
 }
 
+.laptop {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
 .signups {
     box-sizing: border-box;
     border: 2px solid red;
@@ -73,15 +93,30 @@
 .panel {
     align: middle;
     margin-left: 40px;
+    margin-top: 50px;
 }
 
 .hd {
-    font-family: Neue;
-    font-size: 35px;
+    font-family: LLBrown-Bold;
+    font-size: 24px;
+    color: black;
+    transition: 0.6s;
+}
+
+#nerd {
+    margin-bottom: -5px;
+}
+
+.hd:hover {
+    color: #0066ff;
 }
 
 .subft {
     font-family: LLBrown-Regular;
+    text-align: justify;
+    width: 100%;
+    color: #acafae;
+    line-height: 25px;
 }
 
 .dsh {
@@ -96,42 +131,61 @@
 .Com {
     padding-left: 60px;
     margin-top: 90px;
+    background: white;
+
 }
 
 .wrap {
     padding-top: 30px;
 }
 
+#SI {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px 15px;
+    margin-top: -10px;
+    margin-left: 36px;
+    color: #141414;
+}
+
+#SI:hover {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #141414;
+    padding: 8px 15px;
+    margin-top: -10px;
+    margin-left: 36px;
+    color: white;
+    background-color: #141414;
+}
+
+#FT {
+    background-color: #31e0a8;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 15px;
+    margin-top: -12px;
+    margin-left: 10px;
+    color: white;
+}
+
 .h1, ul.topnav li a {
 	display: inline;
 }
-a.back-to-top {
-    display: none;
-    width: 60px;
-    height: 60px;
-    text-indent: -9999px;
-    position: fixed;
-    z-index: 999;
-    right: 20px;
-    bottom: 20px;
-    background: #27AE61 url("up-arrow.png") no-repeat center 43%;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-}
-a:hover.back-to-top {
-    background-color: #000;
-}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding:0px;
     overflow: hidden;
     font-size: 25px;
-    margin-top: 25px;
+    padding-top: 25px;
     font-size: 18.09px;
     font-family: LLBrown-Regular;
-    margin-left: -5px;
+    margin-left: 100px;
 }
 
 ul.topnav li {
@@ -142,16 +196,14 @@ ul.topnav li a {
     color: #373737;
     text-align: center;
     text-decoration: none;
-    padding-left: 30px;
+    padding-left: 25px;
     transition: 0.6s;
 }
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-	color: #0066ff;
     border-style: solid;
     border-radius: 3px;
-    border-color: #0066ff;
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
@@ -161,6 +213,28 @@ ul.topnav li.icon {
 
 .bold {
     font-family: HNM;
+}
+
+
+.Power {
+    font-family: LLBrown-Bold;
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 30px;
+}
+.company {
+    margin-left: 50px;
+    opacity: 0.1;
+    transition: 0.6s;
+    margin-top: 5vh;
+}
+
+.company:hover {
+    opacity: 1;
+}
+
+.goog {
+
 }
 
 .pricing-head {
@@ -933,6 +1007,44 @@ a {
   }
 }
 
+.qna {
+    text-align: center;
+    font-family: Neue;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.QNA {
+  position: relative;
+  margin: auto;
+  padding-left: 25px;
+  width: 95%
+}
+
+.Q {
+    text-align: left;
+    font-family: LLBrown-Bold;
+    font-size: 19px;
+    padding-bottom: 8px;
+}
+
+.A {
+    text-align: justify;
+    font-family: LLBrown-Regular;
+    font-size: 17px;
+    color: #c2c6c4;
+    line-height: 23px;
+}
+
+.Row2 {
+  padding-bottom: 35px;
+}
+
+.wrap {
+    padding-bottom: 145px;
+    padding-top: 40px;
+}
+
 .signcol {
     text-align: center;
     padding: 0 5px;
@@ -1030,8 +1142,9 @@ input:-webkit-autofill:active {
 }
 
 .FName {
-    color: #c2c6c4;
+    color: #c2c6c4 !important;
     font-family: LLBrown-Bold;
+    text-decoration: none;
 }
 
 .Cop {
@@ -1043,6 +1156,7 @@ input:-webkit-autofill:active {
   margin-top: 7%;
   margin-left: 40%;
 }
+
 .FWrap {
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
@@ -1055,6 +1169,10 @@ input:-webkit-autofill:active {
     width: 80%;
     margin: auto;
     margin-top: -30px;
+}
+
+#Robot {
+    margin-bottom: -5px;
 }
 
 .FHead {
@@ -1088,4 +1206,56 @@ input:-webkit-autofill:active {
     color: white;
     position: relative;
     top: -2px;
+}
+
+.pcol {
+    margin-top: -50px;
+}
+
+ul.topnav2 li a {
+    display: inline;
+}
+
+ul.topnav2 {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: LLBrown-Regular;
+    margin-top: -38px;
+    margin-left: -10px;
+}
+
+ul.topnav2 li {
+    display: inline;
+}
+
+ul.topnav2 li a {
+    display: inline-block;
+    color: #acafae;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    transition: 0.6s;
+}
+
+/* Change background color of links on hover */
+ul.topnav2 li a:hover {
+    color: #0066ff;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #0066ff;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav2 li.icon {
+    display: none;
+}
+
+.inpp {
+    display: inline-block;
+    font-family: LLBrown-Regular;
+}
+
+.tname {
+    font-family: LLBrown-Bold;
 }

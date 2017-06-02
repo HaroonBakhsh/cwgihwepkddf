@@ -1,0 +1,364 @@
+html, body {
+  width: 100%;
+}
+@font-face {
+    font-family: LLBrown-Bold;
+    src: url('LLBrown-Bold.otf');
+}
+@font-face{
+    font-family: LLBrown-Regular;
+    src: url('LLBrown-Regular.otf');
+}
+@font-face {
+    font-family: Neue;
+    src: url('Neue.otf');
+}
+@font-face {
+    font-family: HNM;
+    src: url('HNM.ttf');
+}
+@font-face {
+    font-family: HNT;
+    src: url('HNT.ttf');
+}
+
+.OTT {
+  font-family: HNT;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+}
+.Title {
+    font-family: LLBrown-Bold;
+    font-size: 35px;
+    margin-top: 20px;
+    overflow: none;
+}
+
+.top {
+    margin: 0;
+    background: #0066ff;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.9em;
+    font-family: HNM;
+}
+
+.h1, ul.topnav li a {
+  display: inline;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    font-size: 25px;
+    padding-top: 25px;
+    font-size: 18.09px;
+    font-family: LLBrown-Regular;
+    margin-left: 100px;
+}
+
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #373737;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 73px;
+    transition: 0.6s;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.snip1336 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 3%;
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.0em;
+  background-color: #141414;
+}
+
+.snip1336 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+figure:hover {
+  -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.7);
+}
+.snip1336 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.snip1336 figcaption {
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+  position: relative;
+}
+.snip1336 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent white;
+}
+.snip1336 figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.snip1336 figcaption a:hover {
+  opacity: 1;
+}
+.snip1336 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1336 .follow {
+  margin-right: 2.1%;
+  border-color: #141414;
+  color: #141414;
+}
+
+.snip1336 .follow2 {
+  margin-right: 2.1%;
+  border-color: #141414;
+  color: #141414;
+}
+
+.snip1336 h2 {
+  margin: 0 0 5px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+.snip1336 h2 span {
+  display: block;
+  font-size: 0.6em;
+  color: #141414;
+  font-family: Neue;
+  margin-top: 8px;
+}
+
+/* Demo purposes only */
+body {
+  background-color: white;
+}
+
+#text {
+  color: white;
+}
+
+figure {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.35);
+  transition: 0.6s;
+}
+
+figure h2 {
+  color: #141414;
+  font-family: HNT;
+  font-size: 26px;
+  top: -2px;
+  position: relative;
+}
+
+#SI {
+/*    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;*/
+    padding: 4px 15px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#FT {
+    background-color: #31e0a8;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 6px 15px;
+    margin-top: -12px;
+    margin-left: 10px;
+    color: white;
+}
+
+#on {
+  color: #31e0a8;
+  font-size: 25px;
+}
+
+#mid {
+  color: #FF4136; /* Yellow (Mid Level) #FFDC00 */
+  font-size: 25px;
+}
+
+.snip1336 {
+  margin-top: 5vh;
+}
+
+/*.snip1336{
+  top: 15%;
+  bottom:15%;
+  right: 15%;
+  left:15%;
+}*/
+
+ul.topnav2 li a {
+    display: inline;
+}
+
+ul.topnav2 {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: -52px;
+}
+
+ul.topnav2 li {
+    display: inline;
+}
+
+ul.topnav2 li a {
+    display: inline-block;
+    font-family: LLBrown-Regular;
+    color: #acafae;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    transition: 0.6s;
+}
+
+/* Change background color of links on hover */
+ul.topnav2 li a:hover {
+    color: #0066ff;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav2 li.icon {
+    display: none;
+}
+
+.footer {
+  background: white;
+  height: 10vh;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.FName {
+    color: #c2c6c4 !important;
+    font-family: LLBrown-Bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 45px;
+}
+
+.FWrap {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 28px -5px rgba(0,0,0,0.25);
+    border-color: black;
+    background: white;
+    padding: 10px 15px;
+    height: 320px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#Robot {
+    margin-bottom: 5px;
+}
+
+.FHead {
+    font-family: LLBrown-Bold;
+    font-size: 22px;
+}
+
+.FSub {
+    font-family: LLBrown-Regular;
+    font-size: 17px;
+    line-height: 30px;
+    width: 80%;
+    color: #acafae;
+}
+
+.FBtn {
+    border-radius: 5px;
+    background-color: #0066ff;
+    color: white;
+    width: 30%;
+    height: 50px;
+    padding: 20px 24px;
+    margin: 5px 10px;
+    text-decoration: none !important;
+    transition: 3s;
+    font-size: 15px;
+    font-family: LLBrown-Bold;
+}
+
+.FBtn:hover {
+    color: white;
+    position: relative;
+    top: -2px;
+}
+
+.PWrap {
+  margin-top: 20px;
+}
